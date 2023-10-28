@@ -12,3 +12,12 @@ Example 2:
   a2 = ["lively", "alive", "harp", "sharp", "armstrong"]
   returns []
 */
+
+
+function inArray(arr1, arr2) {
+  return arr1.filter(funtion(needle) {
+    return arr2.some(function(haystack) {
+      return haystack.indexOf(needle) > -1;
+    });
+  }).sort();
+}
