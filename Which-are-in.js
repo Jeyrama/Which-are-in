@@ -14,6 +14,8 @@ Example 2:
 */
 
 
+// Solution
+
 function inArray(arr1, arr2) {
   return arr1.filter(funtion(needle) {
     return arr2.some(function(haystack) {
